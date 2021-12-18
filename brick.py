@@ -1,6 +1,8 @@
 from turtle import Turtle
 
 bricks = []
+
+
 class Brick(Turtle):
     def __init__(self):
         super().__init__()
@@ -16,4 +18,3 @@ class Brick(Turtle):
             obj = cls()
             bricks.append(obj)
         return bricks
-
